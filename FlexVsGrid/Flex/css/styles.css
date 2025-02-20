@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedorTodo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#contenedorSuperior{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(84, 202, 84);
+}
+
+#contenedorCentral{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75%;
+}
+
+#contenedorIzquierdo{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+}
+
+#contenedorDerecho{
+    width: 25%;
+    height: 100%;
+    background-color: red;
+}
+
+#contenedorArriba{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+#contenedorAbajo{
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+
+#izquierda{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+#derecha{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}

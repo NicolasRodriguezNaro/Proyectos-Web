@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+#contenedorTodo{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "superior superior superior"
+        "centroIzquierda centro centroDerecha"
+        "inferior inferior centroDerecha"
+    ;
+}
+
+#contenedorSuperior{
+    grid-area: superior;
+    background-color: rgb(77, 197, 77);
+}
+
+#contenedorCentroIzquierda{
+    grid-area: centroIzquierda;
+    background-color: aqua;
+}
+
+#contenedorCentro{
+    grid-area: centro;
+    background-color: brown;
+}
+
+#contenedorDerecho{
+    grid-area: centroDerecha;
+    background-color: red;
+}
+
+#contenedorInferior{
+    grid-area: inferior;
+    background-color: yellow;
+}
+

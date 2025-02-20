@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+#contenedorMayor{
+    position: relative;
+    top: 50px;
+    left: 250px;
+    margin-bottom: 50px;
+    width: 850px;
+    height: 1000px;
+    border: ridge rgb(247, 245, 245);
+    border-radius: 15px;
+
+    display: flex;
+    gap: 20px;
+}
+
+#contenedorIzquierdo{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin-bottom: 20px;
+
+    width: 300px;
+    height: 90%;
+
+    overflow: hidden;
+}
+
+#contenedorTexto{
+    position: relative;
+    width: 270px;
+    height: 100%;
+
+    border: 5px solid black;
+}
+
+#contenedorImagen{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    width: 300px;
+    height: 370px;
+
+}
+
+#imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#sobreMi{
+    position: absolute;
+    top: 52%;
+    left: 40px;
+}
+
+#pSobreMi{
+    position: absolute;
+    top: 57%;
+    left: 40px;
+
+    max-width: 100%;
+}
+
+#contacto{
+    position: absolute;
+    top: 75%;
+    left: 40px;
+}
+
+#telefono{
+    position: absolute;
+    top: 82%;
+    left: 90px;
+}
+
+#correo{
+    position: absolute;
+    top: 87%;
+    left: 90px;
+}
+
+#contenedorDerecho{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin-bottom: 20px;
+
+    width: 350px;
+    height: 90%;
+
+}
+
+#nombre{
+    position: absolute;
+    top: 45px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#agente{
+    position: absolute;
+    top: 220px;
+
+    font-size: 20px;
+}
+
+#experiencia{
+    position: absolute;
+    top: 350px;
+}
+
+#experiencia1{
+    position: absolute;
+    top: 390px;
+
+    font-size: 15px;
+
+}
+
+#empresa1{
+    position: absolute;
+    top: 410px;
+}
+
+#parrafos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 435px;
+
+    width: 400px;
+}

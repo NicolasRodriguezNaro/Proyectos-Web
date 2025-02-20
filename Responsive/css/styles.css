@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: 
+        "navegacion encabezado encabezado"
+        "navegacion seccionProductos enlaces"
+        "navegacion seccionServicios enlaces"
+        "navegacion piePagina piePagina"
+    ;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+@media (max-width: 1000px){
+    .contenedor{
+        grid-template-areas: 
+        "encabezado encabezado navegacion"
+        "seccionProductos seccionProductos seccionProductos"
+        "seccionServicios seccionServicios seccionServicios"
+        "piePagina enlaces enlaces"
+        ;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 700px){
+    .contenedor{
+        grid-template-areas: 
+        "encabezado"
+        "navegacion"
+        "seccionProductos"
+        "seccionServicios"
+        "enlaces"
+        "piePagina"
+        ;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+.encabezado{
+    grid-area: encabezado;
+    border: 1px dashed black;
+}
+
+.navegacion{
+    grid-area: navegacion;
+    border: 1px dashed black;
+}
+
+.seccion_productos{
+    grid-area: seccionProductos;
+    border: 1px dashed black;
+}
+
+.seccion_servicios{
+    grid-area: seccionServicios;
+    border: 1px dashed black;
+}
+
+.enlaces{
+    grid-area: enlaces;
+    border: 1px dashed black;
+}
+
+.pie_pagina{
+    grid-area: piePagina;
+    border: 1px dashed black;
+}

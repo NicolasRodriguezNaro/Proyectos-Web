@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: red;
+}
+
+.arriba{
+    background-color: yellow;
+}
+
+#unico{
+    background-color: blue !important;
+}
+
+img{
+    width: 100%;
+    margin: 30px;
+    border: solid red;
+    padding: 30px;
+}
