@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.container{
+    width: 100vw;
+    background-color: blue;
+}
+
+#pen{
+    width: 100vw;
+    background-color: red;
+}
